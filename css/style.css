@@ -1,0 +1,177 @@
+body{
+	background-color: #E1E1E1;
+	margin: 0;
+}
+
+.headerLogo{
+	background-color: #EF6A6A;
+	background-image: -webkit-linear-gradient(91deg, #E1E1E1 40.666%,#EF6A6A 41%);
+	max-height: 100px;
+	max-width: 100%;
+	width: 100%;
+	padding-bottom:50px;
+	padding-top:0;
+	display: flex;
+}
+
+.headerLogo img{
+	margin: 0 auto;
+	margin-top: 0;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.hamburg{
+	display: none;
+}
+
+/*.hamburg{
+	color: #E1E1E1;
+	font-size: 60px;
+	background-color: transparent;
+	border: none;
+	margin-top: 10px;
+	margin-left: 5px;
+
+}*/
+
+.bus{
+		position: absolute;
+		right: 20px;
+		max-height:40px;
+		width:290px;
+		margin-top: 15px;
+		background-color: transparent;
+		overflow: hidden;
+		display: flex;
+}
+.busInput{
+	color: #8A8989;
+	margin-right: 13px;
+	border-radius: 20px;
+	width: 250px;
+	border:none;
+	background-color: #E1E1E1;
+	padding:5px;
+	padding-left: 10px;
+}
+
+
+.bus button{
+	color: white;
+	width: 40px;
+	height: 30px;
+	font-size: 20px;	
+	margin-right: 10px;
+	background-color: #EF6A6A;
+	border: none;
+}
+
+.bus button:hover{
+	border: 1px solid #E1E1E1;
+	border-radius: 20px;
+	transition-delay: 0.10s;
+}
+
+.contents{
+	display: flex;
+	padding-left: 5%;
+
+}
+.left{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.inisesion{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: #EF6A6A;
+	padding:80px 60px;
+	background-image: -webkit-linear-gradient(272deg, #E1E1E1 20.666%,#EF6A6A 21%);
+	height: 600px;
+	width: 200px;
+	max-height: 400px;
+	margin-top: -30px;
+	overflow: hidden;
+	border: none;
+}
+
+.lab{
+	margin-bottom: 30px;
+	margin-top: 100px;
+	color: #E1E1E1;
+	font-size: 25px;
+
+}
+
+.inisesion button{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.nologInput{
+	margin-bottom: 20px;
+	border-radius: 20px;
+	padding: 5px;
+	padding-left: 10px;
+	width: 200px;
+	height: 20px;
+	border: none;
+	background-color: #E1E1E1;	
+}
+
+.nologBut{
+	background-color: transparent;
+	border-radius: 20px;
+	border: 3px solid #E1E1E1;
+	color: #E1E1E1;
+	padding: 8px;
+	padding-left: 13px;
+	height: 40px;
+}
+
+.nologBut:hover{
+	color: white;
+	background-color:#F64D4D;
+	border-color: white;
+}
+
+.registro div{
+	display: flex;
+}
+.registro div h3{
+	color: #E1E1E1;
+	font-size: 20px;
+	margin-right: 20px;
+	width: 120px;
+	text-align: left;
+	padding:none;
+}
+
+.registro input{
+	margin: auto 0;
+	margin-right: 10px;
+	width: 350px; 
+}
+
+.registro input[id="unique"]{
+	margin: auto 0;
+	margin-right: 10px;
+	width: 720px; 
+}
+
+.registro{
+	text-align: center;
+	background-color: #EF6A6A;
+	margin-left: 5%;
+	margin-top: -30px;
+	padding:80px 60px ;
+	width: 50%;
+	overflow: hidden;
+	background-image: -webkit-linear-gradient(272deg, #E1E1E1 20.666%,#EF6A6A 21%);
+}
+
+
