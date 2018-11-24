@@ -70,7 +70,13 @@ body{
 .bus button:hover{
 	border: 1px solid #E1E1E1;
 	border-radius: 20px;
+	background-color:#F64D4D;
 	transition-delay: 0.10s;
+	cursor: pointer;
+}
+
+.lab:hover{
+	cursor: default;
 }
 
 .contents{
@@ -137,6 +143,8 @@ body{
 	color: white;
 	background-color:#F64D4D;
 	border-color: white;
+	transition-delay: 0.10s;
+	cursor: pointer;
 }
 
 .registro div{
@@ -149,6 +157,10 @@ body{
 	width: 120px;
 	text-align: left;
 	padding:none;
+}
+
+.registro h3:hover{
+	cursor: default;
 }
 
 .registro input{
@@ -172,6 +184,11 @@ body{
 	width: 50%;
 	overflow: hidden;
 	background-image: -webkit-linear-gradient(272deg, #E1E1E1 20.666%,#EF6A6A 21%);
+}
+
+.registro button{
+	margin-bottom: 0;
+	width: 200px;
 }
 
 
