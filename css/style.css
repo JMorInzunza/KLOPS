@@ -25,8 +25,6 @@ body{
 	display: none;
 }
 
-
-
 .bus{
 		position: absolute;
 		right: 20px;
@@ -47,7 +45,6 @@ body{
 	padding:5px;
 	padding-left: 10px;
 }
-
 
 .bus button{
 	color: white;
@@ -183,7 +180,6 @@ body{
 	width: 200px;
 }
 
-
 .menu{
 	display: flex;
 	flex-direction: column;
@@ -300,7 +296,6 @@ flex-direction: column;
 	height: 300px;
 }
 
-
 .publish h3{
 	text-align: center;
 	margin-bottom: 5px;
@@ -348,7 +343,6 @@ flex-direction: column;
 	border-color: #E1E1E1;
 
 	}
-
 
 @media screen and (max-width:1440px){
 
@@ -517,7 +511,6 @@ flex-direction: column;
 
 	}
 
-
 	.nologInput{
 		width: 80%;
 		margin: 5% 10%;
@@ -532,7 +525,6 @@ flex-direction: column;
 		padding-bottom: 4%;
 		padding-top: 2%;
 		text-align: center;
-
 	}
 	.bus{
 		display: none;
@@ -556,7 +548,6 @@ flex-direction: column;
 
 	.left{
 		width: 500%;
-	
 	}
 
 	.registro{
@@ -585,27 +576,13 @@ flex-direction: column;
 		margin: 10px;
 	}
 
-	.registro input[id="unique"]{
-		margin-left:30px;
-		width: 90%;
-	}	
-
-	.registro input[name="nombre"]{
-
-	}
-
-	.registro input[name="pass1"]::-webkit-input-placeholder::before{
-		content: "contraseña";
 	
-	}
 
 	.registro .nologBut{
 		margin-top: 5px;
 		margin-left: 20px;
 	}
 
-	.registro input[name="email"]{
-
-	}
+	
 }
 
