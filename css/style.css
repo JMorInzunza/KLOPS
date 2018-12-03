@@ -568,6 +568,44 @@ flex-direction: column;
 
 @media screen and (max-width:430px){
 	
+	.registro{
+		padding-left:5px; 
+		width: 80%;
+	}
 
+	.registro h3{
+		display: none;
+	}
+
+	.lab {
+		display: block !important;
+	}
+
+	.registro input{
+		margin: 10px;
+	}
+
+	.registro input[id="unique"]{
+		margin-left:30px;
+		width: 90%;
+	}	
+
+	.registro input[name="nombre"]{
+
+	}
+
+	.registro input[name="pass1"]::-webkit-input-placeholder::before{
+		content: "contraseña";
+	
+	}
+
+	.registro .nologBut{
+		margin-top: 5px;
+		margin-left: 20px;
+	}
+
+	.registro input[name="email"]{
+
+	}
 }
 
